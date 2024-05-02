@@ -1,0 +1,80 @@
+:root {
+  font-size: 100%;
+}
+html {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+body {
+  margin-bottom: 0;
+  background-color: #e9ecf2;
+  overflow-x: hidden;
+  color: #707276;
+  font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: .9375rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.4375rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+a {
+  
+  text-decoration: none;
+}
+ul {
+  margin-bottom: 0.5rem;
+  font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: .9375rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.4375rem;
+}
+.li{
+  list-style-type: none;
+}
+
+/* media queries */
+@media (min-width: 1536px) {
+  .innerWidth {
+    max-width: 1280px;
+    margin: auto;
+  }
+}
+@media (min-width: 54rem){
+.body, ol, p, ul {
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+}
+}
+@media (min-width: 54rem){
+body {
+    font-size: .875rem;
+    line-height: 1.3125rem;
+}
+}
+@media (min-width: 640px) {
+  .paddings {
+    padding: 4rem;
+  }
+}
+
+@media (min-width: 1280px), (min-width: 768px) {
+  .paddings {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .primaryText {
+    font-size: 1.5rem;
+  }
+  .orangeText {
+    font-size: 1.2rem;
+  }
+}
